@@ -1,3 +1,10 @@
+class Node(object):
+    """Node in a Linked List"""
+
+    def __init__(self, data):
+        self.data = data
+        self.next = None
+
 class LinkedList(object):
     """Linked List"""
 
@@ -70,3 +77,8 @@ class LinkedList(object):
     # other methods to try
     # def remove_by_index(2)
     # def insert(2, 'cardamom')
+
+
+
+
+
